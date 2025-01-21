@@ -1,7 +1,0 @@
-account_id,pred_proba,pred_class,group
-111,0.946868627,high,A
-112,0.766034259,medium,A
-113,0.513531949,low,A
-221,0.849330805,high,B
-222,0.778911477,medium,B
-223,0.569415477,low,B
