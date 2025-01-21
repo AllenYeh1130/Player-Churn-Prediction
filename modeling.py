@@ -128,8 +128,8 @@ if len(arg) > 1:
     start_date = arg[1]
     end_date = arg[2]
 else:
-    # 沒設定日期，預設抓90天的資料來建模
-    start_date = (dt.date.today() - dt.timedelta(days=96)).strftime('%Y-%m-%d')
+    # 沒設定日期，預設抓120天的資料來建模
+    start_date = (dt.date.today() - dt.timedelta(days=126)).strftime('%Y-%m-%d')
     end_date = (dt.date.today() - dt.timedelta(days=7)).strftime('%Y-%m-%d')
 
 # start_date不能晚於end_date
